@@ -1,0 +1,508 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #2B292D;
+}
+
+input,
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  line-height: 1.3333333333;
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* 공통요소 */
+.category {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.0909090909;
+  letter-spacing: -0.01em;
+}. 
+
+.description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4545454545;
+  letter-spacing: -0.01em;
+}
+
+.fill__button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 56px;
+  background-color: #3040C4;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5555555556;
+  letter-spacing: -0.05em;
+  border-radius: 2px;
+}
+
+.fill__button__inverted {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 56px;
+  background-color: #fff;
+  color: #3040C4;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5555555556;
+  letter-spacing: -0.05em;
+  border-radius: 2px;
+}
+
+
+                                            /* WEB */
+
+                      
+/* Landing section */
+.landing {
+  background-color: #FDDED8;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.landing__title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.0285714286;
+  letter-spacing: -0.05em;
+  margin-bottom: 32px;
+}
+
+.landing__content .description {
+  margin-bottom: 32px;
+}
+
+.fill__button {
+  margin-right: 10px;
+}
+
+
+/* Service section */
+.service {
+  background-color: #F4F5F7;
+  padding: 80px 0;
+  margin: auto;
+
+}
+
+.service__title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.3076923077;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+
+.col-12 .col-md-6:first-child {
+  padding-right: 110px;
+} 
+
+
+/* Program section */
+.program {
+  text-align: center;
+  padding: 88px 0;
+}
+
+.program__content .category {
+  color:#009B4D;
+}
+
+.program__title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-bottom: 32px;
+}
+
+.program__content .description {
+  margin-bottom: 72px;
+}
+
+.program__img__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 299px;
+  border-radius: 10px;
+  margin-right: 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px
+              3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px 
+              rgba(225, 225, 225, 0.01);
+}
+
+.program__img:hover {
+  background-color: #3040C4;
+  color: #fff;
+}
+
+.program__img img {
+  display: block;
+  width: auto;
+  height: 195px;
+  margin-bottom: 24px;
+}
+
+.program__img__title {
+  font-size: 20;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* Curriculum section */
+.curriculum {
+  margin: 100px 0;
+}
+.curriculum .category {
+  color:#0189D1;
+}
+
+.curriculum__title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-bottom: 32px;
+}
+
+.curriculum .description {
+  margin-bottom: 72px;
+}
+
+.button__group {
+  margin-bottom: 45px;
+}
+
+.curriculum img {
+  display: block;
+  width: 450px;
+  height: 450px;
+  padding-bottom: 24px;
+}
+
+.curriculum__details {
+  width: 450px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  line-height: 1.4444444444;
+  letter-spacing: -0.01em;
+}
+
+
+/* Subscription section */
+.subscription {
+  background-color: #F2F8FA;
+  padding: 80px 0;
+}
+
+.subscription img {
+  display: block;
+  width: auto;
+  height: 300px;
+}
+
+.subscription__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 16px;
+}
+
+.subscription .description {
+  margin-bottom: 24px;
+}
+
+.subcription__button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.subscription__email {
+  width: 362px;
+  height: 56px;
+  background-color: #fff;
+  color: #7B7B7E;
+  padding-left: 15px;
+  margin-right: 8px;
+}
+
+.fill__button {
+  margin-bottom: 4px;
+}
+
+.subcription__misc {
+  font-size: 14px;
+  line-height: 1.7142857143;
+  color:#7B7B7E;
+}
+
+.subcription__misc a {
+  text-decoration: underline;
+  color: #3040C4;
+}
+
+/* Footer section */
+.footer {
+  margin: 16px 0;
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 1.7142857143;
+  color: #807F81;
+  margin-right: 15px;
+}
+
+
+                                            /* MOBILE */
+
+@media screen and (max-width: 760px) {
+
+  /* 공통요소 */
+
+  .fill__button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 48px;
+    background-color: #3040C4;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: -0.05em;
+    border-radius: 2px;
+  }
+  
+  .fill__button__inverted {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 48px;
+    background-color: #fff;
+    color: #3040C4;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: -0.05em;
+    border-radius: 2px;
+  }
+  
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.375;
+  }
+
+  .category {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+  }
+
+
+  /* Landing section */
+  .landing__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+
+  .button__group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .landing__content .description {
+    margin-bottom: 24px;
+  }
+  
+
+  /* Service section */
+  .service__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3636363636;
+    margin-bottom: 16px;
+  }
+
+  .service .description {
+    margin-bottom: 40px;
+  }
+
+
+  /* Program section */
+  .program {
+    text-align: left;
+    padding: 88px 0;
+  }
+
+  .program__title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.0588235294;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+  }
+
+  .program__img__group {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+
+  }
+
+  .program__img {
+    display:block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .program__img img {
+    width: auto;
+    height: 195px;
+    margin: 40px auto;
+    margin-bottom: 16px;
+  }
+
+
+  /* Curriculum Section */
+  .curriculum__title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
+  }
+
+  .curriculum .description {
+    margin-bottom: 32px;
+  }
+  
+  .curriculum .button__group {
+    display: block;
+    text-emphasis: left;
+    margin-bottom: 48px;
+  }
+
+  .curriculum img {
+    display: none;
+  }
+
+  .curriculum__details {
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 1.4666666667;
+    letter-spacing: -0.01em;
+  }
+
+
+    /* Subscription Section */
+    .subscription img {
+      display: block;
+      width: auto;
+      height: 240px;
+      margin: auto;
+      margin-bottom: 16px;
+    }
+
+    .subscription__title {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+      margin: 16px 0;
+    }
+
+    .subcription__button {
+      display: block;
+    }
+    
+    .subscription__email {
+      width: 290px;
+      height: 48px;
+      background-color: #fff;
+      color: #7B7B7E;
+      padding-left: 15px;
+      margin-bottom: 8px;
+    }
+    
+    .subscription .fill__button {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
+    .subcription__misc {
+      text-align: center;
+      font-size: 13px;
+      line-height: 1.5384615385;
+      color:#7B7B7E;
+    }
+    
+    .subcription__misc a {
+      text-decoration: underline;
+      color: #3040C4;
+    }
+
+    /* Footer section */
+    .footer {
+      margin: 24px 15px;
+    }
+
+    .footer-link {
+      display: block;
+      margin-bottom: 8px;
+    }
+}
+
+
+/* Custom Grid System */
+@media screen and (min-width: 1200px) {
+  .container {
+      max-width: 960px !important;
+  }
+}
