@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #000;
+  font-family: 'DM Sans', sans-serif;
+  color: #2B292D;
+  font-size: 13px;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* container */
+
+.dday_calculator_container
+{
+  margin: auto;
+  margin-top: 100px;
+  background-color: #fff;
+  border: 10px solid #f9a825;
+  width: 400px;
+  height: 600px;
+}
+
+.d_cal_start {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.d_cal_title {
+  font-size: 30px;
+}
+
+.d_cal_ing,
+.d_cal_data,
+.d_cal_desc {
+  display: block;
+  margin-top: 10px;
+}
+
+
+/* anniversary */
+
+.d_anni_box {
+  display: flex;
+  background-color: #f9a825;
+  width: 350px;
+  height: 80px;
+  margin: 15px;
+}
+
+.d_anni_data {
+  font-size: 30px;
+  margin: auto;
+}
+
+.d_anni_number {
+  margin: auto;
+}
